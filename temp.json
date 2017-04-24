@@ -1,0 +1,60 @@
+{
+    "CidrBlock": "172.31.192.0/18",
+    "DhcpOptionsId": "dopt-e7176e80",
+    "InstanceTenancy": "default",
+    "IsDefault": false,
+    "State": "available",
+    "Tags": [
+        {
+            "Key": "Name",
+            "Value": "CoreNetwork-compliance"
+        }, 
+        {
+            "Key": "aws:cloudformation:logical-id",
+            "Value": "Vpc"
+        },
+        {
+            "Key": "aws:cloudformation:stack-name",
+            "Value": "CoreNetwork-compliance"
+        },
+        {
+            "Key": "Owner",
+            "Value": "Network Teams"
+        },
+        {
+            "Key": "aws:cloudformation:stack-id",
+            "Value": "arn:aws:cloudformation:us-east-1:751344753113:stack/CoreNetwork-compliance/82ae71f0-f48f-11e6-a51e-5044334e0ab3"
+        }
+    ],
+    "VpcId": "vpc-380c675e"
+}
+{
+    "CidrBlock": "172.31.184.0/21",
+    "DhcpOptionsId": "dopt-e7176e80",
+    "InstanceTenancy": "default",
+    "IsDefault": false,
+    "State": "available",
+    "Tags": [
+        {
+            "Key": "aws:cloudformation:logical-id",
+            "Value": "Vpc"
+        },
+        {
+            "Key": "aws:cloudformation:stack-id",
+            "Value": "arn:aws:cloudformation:us-east-1:751344753113:stack/DMZNetwork-compliance/10e70670-f491-11e6-9bfd-50d5ca6326f2"
+        },
+        {
+            "Key": "Name",
+            "Value": "DMZNetwork-compliance"
+        },
+        {
+            "Key": "aws:cloudformation:stack-name",
+            "Value": "DMZNetwork-compliance"
+        },
+        {
+            "Key": "Owner",
+            "Value": "Network Teams"
+        }
+    ],
+    "VpcId": "vpc-49016a2f"
+}
