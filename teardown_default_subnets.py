@@ -5,6 +5,10 @@ ec2_client = []
 
 
 def lambda_handler(event, context):
+    teardown_default_subnets(event, context)
+
+
+def teardown_default_subnets(event, context):
     global ec2_client
     ec2_client = boto3.client('ec2', region_name=event['region'])
     subnets = ec2_client.describe_subnets()
@@ -13,5 +17,6 @@ def lambda_handler(event, context):
         print(subnet['VpcId'])
         print(subnet['SubnetId'])
 
-
-lambda_handler({'region': 'us-west-2'}, {})
+ 
+if __name__ == '__main__':
+    lambda_handler({'region': 'us-west-2'}, {})

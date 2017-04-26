@@ -1,0 +1,807 @@
+{
+    "Clusters": [
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1493157652.738, 
+                    "CreationDateTime": 1493157196.176
+                }, 
+                "State": "WAITING", 
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                }
+            }, 
+            "NormalizedInstanceHours": 48, 
+            "Id": "j-E3N35TYJWJWE", 
+            "Name": "My cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1493155329.41, 
+                    "CreationDateTime": 1493154823.183
+                }, 
+                "State": "WAITING", 
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                }
+            }, 
+            "NormalizedInstanceHours": 32, 
+            "Id": "j-2XBTS0VEOCBHB", 
+            "Name": "Chi-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1493155027.289, 
+                    "CreationDateTime": 1493154520.085
+                }, 
+                "State": "WAITING", 
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                }
+            }, 
+            "NormalizedInstanceHours": 32, 
+            "Id": "j-3JPL53KVL3NKW", 
+            "Name": "My cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1493154789.975, 
+                    "CreationDateTime": 1493154299.316
+                }, 
+                "State": "WAITING", 
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                }
+            }, 
+            "NormalizedInstanceHours": 32, 
+            "Id": "j-1B3TB38BT2US4", 
+            "Name": "bapi_cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1493154746.988, 
+                    "CreationDateTime": 1493154274.139
+                }, 
+                "State": "WAITING", 
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                }
+            }, 
+            "NormalizedInstanceHours": 32, 
+            "Id": "j-36KLAYO90F5J4", 
+            "Name": "patr-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1493154744.848, 
+                    "CreationDateTime": 1493154261.609
+                }, 
+                "State": "WAITING", 
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                }
+            }, 
+            "NormalizedInstanceHours": 32, 
+            "Id": "j-BCZLV15MVNHL", 
+            "Name": "vk-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1493154726.514, 
+                    "CreationDateTime": 1493154180.333
+                }, 
+                "State": "WAITING", 
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                }
+            }, 
+            "NormalizedInstanceHours": 48, 
+            "Id": "j-1NSSWE9FQHJAL", 
+            "Name": "kamal-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1493154514.837, 
+                    "CreationDateTime": 1493154018.266
+                }, 
+                "State": "WAITING", 
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                }
+            }, 
+            "NormalizedInstanceHours": 32, 
+            "Id": "j-1SYBL7OO100NR", 
+            "Name": "manjith-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1493154477.505, 
+                    "CreationDateTime": 1493154008.623
+                }, 
+                "State": "WAITING", 
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                }
+            }, 
+            "NormalizedInstanceHours": 32, 
+            "Id": "j-2P05C2FP6ZMST", 
+            "Name": "aks-emr-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1493154507.13, 
+                    "CreationDateTime": 1493154003.425
+                }, 
+                "State": "WAITING", 
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                }
+            }, 
+            "NormalizedInstanceHours": 32, 
+            "Id": "j-3EL0IJPUZB40O", 
+            "Name": "jsewell-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1493154394.859, 
+                    "CreationDateTime": 1493153792.507
+                }, 
+                "State": "WAITING", 
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                }
+            }, 
+            "NormalizedInstanceHours": 64, 
+            "Id": "j-1URW5CYGBMP4J", 
+            "Name": "tvs-emr"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1493153979.395, 
+                    "CreationDateTime": 1493153471.346
+                }, 
+                "State": "WAITING", 
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                }
+            }, 
+            "NormalizedInstanceHours": 96, 
+            "Id": "j-1VY8C73MAUAL7", 
+            "Name": "garyb-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1493153243.338, 
+                    "CreationDateTime": 1493152744.604
+                }, 
+                "State": "WAITING", 
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                }
+            }, 
+            "NormalizedInstanceHours": 48, 
+            "Id": "j-29RJAP98J3GYX", 
+            "Name": "vikas-emr"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1493153133.261, 
+                    "CreationDateTime": 1493152601.328
+                }, 
+                "State": "WAITING", 
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                }
+            }, 
+            "NormalizedInstanceHours": 48, 
+            "Id": "j-300IOR4SLSBOE", 
+            "Name": "kmcf-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1493153041.947, 
+                    "CreationDateTime": 1493152530.6
+                }, 
+                "State": "WAITING", 
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                }
+            }, 
+            "NormalizedInstanceHours": 48, 
+            "Id": "j-OK4XOCEVIQY0", 
+            "Name": "hanley-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1493152899.788, 
+                    "CreationDateTime": 1493152411.137
+                }, 
+                "State": "WAITING", 
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                }
+            }, 
+            "NormalizedInstanceHours": 48, 
+            "Id": "j-1CO232GAGISXS", 
+            "Name": "harish-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1493152907.927, 
+                    "CreationDateTime": 1493152406.467
+                }, 
+                "State": "WAITING", 
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                }
+            }, 
+            "NormalizedInstanceHours": 48, 
+            "Id": "j-13DAGAE1HL47O", 
+            "Name": "My cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1493152418.058, 
+                    "CreationDateTime": 1493151870.478
+                }, 
+                "State": "WAITING", 
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                }
+            }, 
+            "NormalizedInstanceHours": 48, 
+            "Id": "j-2YC1NB8V7P4RM", 
+            "Name": "sherry-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1493152245.601, 
+                    "CreationDateTime": 1493151739.63
+                }, 
+                "State": "WAITING", 
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                }
+            }, 
+            "NormalizedInstanceHours": 48, 
+            "Id": "j-389OP5Y8UZCC", 
+            "Name": "iknight-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1493152228.964, 
+                    "CreationDateTime": 1493151709.31
+                }, 
+                "State": "WAITING", 
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                }
+            }, 
+            "NormalizedInstanceHours": 48, 
+            "Id": "j-JY5JSTGVFO5T", 
+            "Name": "YKB-EMR"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1493151892.214, 
+                    "CreationDateTime": 1493151386.431
+                }, 
+                "State": "WAITING", 
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                }
+            }, 
+            "NormalizedInstanceHours": 48, 
+            "Id": "j-26B49JVQGK8FU", 
+            "Name": "hscott-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1493145286.465, 
+                    "CreationDateTime": 1493144711.25
+                }, 
+                "State": "WAITING", 
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                }
+            }, 
+            "NormalizedInstanceHours": 80, 
+            "Id": "j-2Q7DG0GJL3HSD", 
+            "Name": "prems-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490996003.05, 
+                    "CreationDateTime": 1490995125.415, 
+                    "EndDateTime": 1491006590.456
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 48, 
+            "Id": "j-192MXCHTL9PJB", 
+            "Name": "james-ferry2-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490993449.499, 
+                    "CreationDateTime": 1490992918.428, 
+                    "EndDateTime": 1491006593.955
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 64, 
+            "Id": "j-3CJLTCVARUZUR", 
+            "Name": "dwebb-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490991538.656, 
+                    "CreationDateTime": 1490991000.391, 
+                    "EndDateTime": 1491006631.163
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 120, 
+            "Id": "j-12KB4OYGET6F2", 
+            "Name": "matt-olsen-cluster2"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490990457.718, 
+                    "CreationDateTime": 1490989932.409, 
+                    "EndDateTime": 1491006579.718
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 80, 
+            "Id": "j-2QH2OXRW427ZC", 
+            "Name": "register-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490990400.389, 
+                    "CreationDateTime": 1490989844.3, 
+                    "EndDateTime": 1491006586.216
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 80, 
+            "Id": "j-35K2EUW3D35A3", 
+            "Name": "aaronhill-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490990443.139, 
+                    "CreationDateTime": 1490989844.276, 
+                    "EndDateTime": 1491006606.637
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 80, 
+            "Id": "j-ZMHO5WAX524I", 
+            "Name": "sai-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490990631.575, 
+                    "CreationDateTime": 1490989843.815, 
+                    "EndDateTime": 1491006574.816
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 80, 
+            "Id": "j-3BQH303W9YA28", 
+            "Name": "john cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490990369.873, 
+                    "CreationDateTime": 1490989842.901, 
+                    "EndDateTime": 1491006364.507
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 80, 
+            "Id": "j-3F3YG4XCKD027", 
+            "Name": "alex-graves-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490990323.403, 
+                    "CreationDateTime": 1490989737.824, 
+                    "EndDateTime": 1490993633.187
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 16, 
+            "Id": "j-8LJHC3IR86CP", 
+            "Name": "james-ferry"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490990053.168, 
+                    "CreationDateTime": 1490989530.866, 
+                    "EndDateTime": 1491006624.669
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 80, 
+            "Id": "j-3G47ZIEOABC5N", 
+            "Name": "oliverhan Cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490989968.884, 
+                    "CreationDateTime": 1490989432.261, 
+                    "EndDateTime": 1490993710.836
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 16, 
+            "Id": "j-3VDWJH6KZEJYK", 
+            "Name": "matt-olsen-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490989959.438, 
+                    "CreationDateTime": 1490989136.61, 
+                    "EndDateTime": 1491006659.491
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 80, 
+            "Id": "j-FQ7OLZB9PQGD", 
+            "Name": "brett-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490989437.424, 
+                    "CreationDateTime": 1490988925.001, 
+                    "EndDateTime": 1491006594.464
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 80, 
+            "Id": "j-1O7A3F1ERZ735", 
+            "Name": "robel-emr-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490989418.169, 
+                    "CreationDateTime": 1490988739.778, 
+                    "EndDateTime": 1491006308.972
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 80, 
+            "Id": "j-2L1OBQCC0WRU5", 
+            "Name": "bobdavis-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490986118.808, 
+                    "CreationDateTime": 1490985396.352, 
+                    "EndDateTime": 1491006584.747
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 96, 
+            "Id": "j-UZDIV3IQGDA", 
+            "Name": "dale-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490983296.558, 
+                    "CreationDateTime": 1490982823.222, 
+                    "EndDateTime": 1491006644.013
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 112, 
+            "Id": "j-3Q3YBPA41NDDV", 
+            "Name": "robweaver-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490948047.193, 
+                    "CreationDateTime": 1490947538.081, 
+                    "EndDateTime": 1491006597.128
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 272, 
+            "Id": "j-26RTSMD7BGPNU", 
+            "Name": "finalized"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490771170.482, 
+                    "CreationDateTime": 1490770656.566, 
+                    "EndDateTime": 1490808595.42
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 264, 
+            "Id": "j-17VI43PCK4BXB", 
+            "Name": "alex-validation-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490770186.209, 
+                    "CreationDateTime": 1490769676.096, 
+                    "EndDateTime": 1490770701.209
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 24, 
+            "Id": "j-3GGAKHWKUZ6PN", 
+            "Name": "alex-cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490743786.608, 
+                    "CreationDateTime": 1490743188.811, 
+                    "EndDateTime": 1490766513.916
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 112, 
+            "Id": "j-2XA328JBHOIYC", 
+            "Name": "aarons cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490721304.203, 
+                    "CreationDateTime": 1490720811.841, 
+                    "EndDateTime": 1490766557.441
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 208, 
+            "Id": "j-X0T81W30NISS", 
+            "Name": "My cluster 2"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490717855.784, 
+                    "CreationDateTime": 1490717159.388, 
+                    "EndDateTime": 1490720865.702
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 24, 
+            "Id": "j-3M6L6RUGHI5AM", 
+            "Name": "My cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "EndDateTime": 1490384561.187, 
+                    "CreationDateTime": 1490384304.019
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 0, 
+            "Id": "j-3FN59C50DPIH7", 
+            "Name": "Ray"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490384749.691, 
+                    "CreationDateTime": 1490384265.217, 
+                    "EndDateTime": 1490385187.016
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 24, 
+            "Id": "j-2H5BG7YP6841C", 
+            "Name": "jdhCluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "EndDateTime": 1490384518.154, 
+                    "CreationDateTime": 1490384138.917
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 0, 
+            "Id": "j-3HZUPDXPHTHVC", 
+            "Name": "Josh Cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "EndDateTime": 1490384567.335, 
+                    "CreationDateTime": 1490384096.912
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 0, 
+            "Id": "j-3H3VXE3E4NY9K", 
+            "Name": "Teri"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490384312.65, 
+                    "CreationDateTime": 1490383823.035, 
+                    "EndDateTime": 1490420552.901
+                }, 
+                "State": "TERMINATED_WITH_ERRORS", 
+                "StateChangeReason": {
+                    "Message": "The master node was terminated by user. ", 
+                    "Code": "INSTANCE_FAILURE"
+                }
+            }, 
+            "NormalizedInstanceHours": 264, 
+            "Id": "j-31PN63WOA87P1", 
+            "Name": "My cluster"
+        }, 
+        {
+            "Status": {
+                "Timeline": {
+                    "ReadyDateTime": 1490384157.617, 
+                    "CreationDateTime": 1490383651.047, 
+                    "EndDateTime": 1490652777.457
+                }, 
+                "State": "TERMINATED", 
+                "StateChangeReason": {
+                    "Message": "Terminated by user request", 
+                    "Code": "USER_REQUEST"
+                }
+            }, 
+            "NormalizedInstanceHours": 264, 
+            "Id": "j-2AEBWNIKNOAUY", 
+            "Name": "cluster testing"
+        }
+    ]
+}

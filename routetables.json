@@ -1,0 +1,363 @@
+{
+    "RouteTables": [
+        {
+            "Associations": [
+                {
+                    "SubnetId": "subnet-8c2dced4", 
+                    "RouteTableAssociationId": "rtbassoc-34025453", 
+                    "Main": false, 
+                    "RouteTableId": "rtb-adb9dfc9"
+                }, 
+                {
+                    "RouteTableAssociationId": "rtbassoc-c84650ac", 
+                    "Main": true, 
+                    "RouteTableId": "rtb-adb9dfc9"
+                }
+            ], 
+            "RouteTableId": "rtb-adb9dfc9", 
+            "VpcId": "vpc-559b2731", 
+            "PropagatingVgws": [], 
+            "Tags": [], 
+            "Routes": [
+                {
+                    "GatewayId": "local", 
+                    "DestinationCidrBlock": "172.31.0.0/16", 
+                    "State": "active", 
+                    "Origin": "CreateRouteTable"
+                }, 
+                {
+                    "GatewayId": "igw-54878a31", 
+                    "DestinationCidrBlock": "0.0.0.0/0", 
+                    "State": "active", 
+                    "Origin": "CreateRoute"
+                }
+            ]
+        }, 
+        {
+            "Associations": [
+                {
+                    "SubnetId": "subnet-7ce4541b", 
+                    "RouteTableAssociationId": "rtbassoc-e090dc86", 
+                    "Main": false, 
+                    "RouteTableId": "rtb-e1ecde86"
+                }
+            ], 
+            "RouteTableId": "rtb-e1ecde86", 
+            "VpcId": "vpc-7e72ed19", 
+            "PropagatingVgws": [], 
+            "Tags": [
+                {
+                    "Value": "arn:aws:cloudformation:us-west-2:842337631775:stack/main-vpc/5a4840b0-f232-11e6-83fd-50a686be7356", 
+                    "Key": "aws:cloudformation:stack-id"
+                }, 
+                {
+                    "Value": "main-vpc", 
+                    "Key": "aws:cloudformation:stack-name"
+                }, 
+                {
+                    "Value": "AZBPrivateSubnetsRouteTable", 
+                    "Key": "aws:cloudformation:logical-id"
+                }, 
+                {
+                    "Value": "us-west-2b-Private-Subnets", 
+                    "Key": "Name"
+                }
+            ], 
+            "Routes": [
+                {
+                    "GatewayId": "local", 
+                    "DestinationCidrBlock": "10.10.0.0/16", 
+                    "State": "active", 
+                    "Origin": "CreateRouteTable"
+                }, 
+                {
+                    "Origin": "CreateRoute", 
+                    "DestinationCidrBlock": "0.0.0.0/0", 
+                    "NatGatewayId": "nat-08def22008f6e9263", 
+                    "State": "active"
+                }
+            ]
+        }, 
+        {
+            "Associations": [], 
+            "RouteTableId": "rtb-e18d5887", 
+            "VpcId": "vpc-dafffbbe", 
+            "PropagatingVgws": [], 
+            "Tags": [
+                {
+                    "Value": "demo-route", 
+                    "Key": "Name"
+                }
+            ], 
+            "Routes": [
+                {
+                    "GatewayId": "local", 
+                    "DestinationCidrBlock": "172.16.0.0/16", 
+                    "State": "active", 
+                    "Origin": "CreateRouteTable"
+                }
+            ]
+        }, 
+        {
+            "Associations": [
+                {
+                    "SubnetId": "subnet-7ef17726", 
+                    "RouteTableAssociationId": "rtbassoc-69356e0e", 
+                    "Main": false, 
+                    "RouteTableId": "rtb-80dc24e7"
+                }, 
+                {
+                    "SubnetId": "subnet-30105046", 
+                    "RouteTableAssociationId": "rtbassoc-6b356e0c", 
+                    "Main": false, 
+                    "RouteTableId": "rtb-80dc24e7"
+                }
+            ], 
+            "RouteTableId": "rtb-80dc24e7", 
+            "VpcId": "vpc-dafffbbe", 
+            "PropagatingVgws": [], 
+            "Tags": [
+                {
+                    "Value": "180699916525", 
+                    "Key": "AWSServiceAccount"
+                }
+            ], 
+            "Routes": [
+                {
+                    "GatewayId": "local", 
+                    "DestinationCidrBlock": "172.16.0.0/16", 
+                    "State": "active", 
+                    "Origin": "CreateRouteTable"
+                }, 
+                {
+                    "GatewayId": "igw-de8d28ba", 
+                    "DestinationCidrBlock": "0.0.0.0/0", 
+                    "State": "active", 
+                    "Origin": "CreateRoute"
+                }
+            ]
+        }, 
+        {
+            "Associations": [
+                {
+                    "RouteTableAssociationId": "rtbassoc-4e90dc28", 
+                    "Main": true, 
+                    "RouteTableId": "rtb-2eecde49"
+                }
+            ], 
+            "RouteTableId": "rtb-2eecde49", 
+            "VpcId": "vpc-7e72ed19", 
+            "PropagatingVgws": [], 
+            "Tags": [], 
+            "Routes": [
+                {
+                    "GatewayId": "local", 
+                    "DestinationCidrBlock": "10.10.0.0/16", 
+                    "State": "active", 
+                    "Origin": "CreateRouteTable"
+                }
+            ]
+        }, 
+        {
+            "Associations": [
+                {
+                    "SubnetId": "subnet-7be4541c", 
+                    "RouteTableAssociationId": "rtbassoc-1d90dc7b", 
+                    "Main": false, 
+                    "RouteTableId": "rtb-15ecde72"
+                }, 
+                {
+                    "SubnetId": "subnet-f9e0d7a1", 
+                    "RouteTableAssociationId": "rtbassoc-dd90dcbb", 
+                    "Main": false, 
+                    "RouteTableId": "rtb-15ecde72"
+                }, 
+                {
+                    "SubnetId": "subnet-ef60aba6", 
+                    "RouteTableAssociationId": "rtbassoc-e190dc87", 
+                    "Main": false, 
+                    "RouteTableId": "rtb-15ecde72"
+                }
+            ], 
+            "RouteTableId": "rtb-15ecde72", 
+            "VpcId": "vpc-7e72ed19", 
+            "PropagatingVgws": [], 
+            "Tags": [
+                {
+                    "Value": "PublicSubnetsRouteTable", 
+                    "Key": "aws:cloudformation:logical-id"
+                }, 
+                {
+                    "Value": "arn:aws:cloudformation:us-west-2:842337631775:stack/main-vpc/5a4840b0-f232-11e6-83fd-50a686be7356", 
+                    "Key": "aws:cloudformation:stack-id"
+                }, 
+                {
+                    "Value": "main-vpc", 
+                    "Key": "aws:cloudformation:stack-name"
+                }, 
+                {
+                    "Value": "AZ-All-Public-Subnets", 
+                    "Key": "Name"
+                }
+            ], 
+            "Routes": [
+                {
+                    "GatewayId": "local", 
+                    "DestinationCidrBlock": "10.10.0.0/16", 
+                    "State": "active", 
+                    "Origin": "CreateRouteTable"
+                }, 
+                {
+                    "GatewayId": "igw-b85777dc", 
+                    "DestinationCidrBlock": "0.0.0.0/0", 
+                    "State": "active", 
+                    "Origin": "CreateRoute"
+                }
+            ]
+        }, 
+        {
+            "Associations": [
+                {
+                    "RouteTableAssociationId": "rtbassoc-6f356e08", 
+                    "Main": true, 
+                    "RouteTableId": "rtb-81dc24e6"
+                }
+            ], 
+            "RouteTableId": "rtb-81dc24e6", 
+            "VpcId": "vpc-dafffbbe", 
+            "PropagatingVgws": [], 
+            "Tags": [], 
+            "Routes": [
+                {
+                    "GatewayId": "local", 
+                    "DestinationCidrBlock": "172.16.0.0/16", 
+                    "State": "active", 
+                    "Origin": "CreateRouteTable"
+                }, 
+                {
+                    "GatewayId": "igw-de8d28ba", 
+                    "DestinationCidrBlock": "0.0.0.0/0", 
+                    "State": "active", 
+                    "Origin": "CreateRoute"
+                }
+            ]
+        }, 
+        {
+            "Associations": [
+                {
+                    "SubnetId": "subnet-c5e0d79d", 
+                    "RouteTableAssociationId": "rtbassoc-f290dc94", 
+                    "Main": false, 
+                    "RouteTableId": "rtb-09ecde6e"
+                }
+            ], 
+            "RouteTableId": "rtb-09ecde6e", 
+            "VpcId": "vpc-7e72ed19", 
+            "PropagatingVgws": [], 
+            "Tags": [
+                {
+                    "Value": "arn:aws:cloudformation:us-west-2:842337631775:stack/main-vpc/5a4840b0-f232-11e6-83fd-50a686be7356", 
+                    "Key": "aws:cloudformation:stack-id"
+                }, 
+                {
+                    "Value": "main-vpc", 
+                    "Key": "aws:cloudformation:stack-name"
+                }, 
+                {
+                    "Value": "us-west-2c-Private-Subnets", 
+                    "Key": "Name"
+                }, 
+                {
+                    "Value": "AZCPrivateSubnetsRouteTable", 
+                    "Key": "aws:cloudformation:logical-id"
+                }
+            ], 
+            "Routes": [
+                {
+                    "GatewayId": "local", 
+                    "DestinationCidrBlock": "10.10.0.0/16", 
+                    "State": "active", 
+                    "Origin": "CreateRouteTable"
+                }, 
+                {
+                    "Origin": "CreateRoute", 
+                    "DestinationCidrBlock": "0.0.0.0/0", 
+                    "NatGatewayId": "nat-045d3f8be95fe7fee", 
+                    "State": "active"
+                }
+            ]
+        }, 
+        {
+            "Associations": [
+                {
+                    "SubnetId": "subnet-80f6c0d8", 
+                    "RouteTableAssociationId": "rtbassoc-8591dfe3", 
+                    "Main": false, 
+                    "RouteTableId": "rtb-bc536fdb"
+                }
+            ], 
+            "RouteTableId": "rtb-bc536fdb", 
+            "VpcId": "vpc-559b2731", 
+            "PropagatingVgws": [], 
+            "Tags": [
+                {
+                    "Value": "1Strategy-OpenVPN-Private-Route", 
+                    "Key": "Name"
+                }
+            ], 
+            "Routes": [
+                {
+                    "GatewayId": "local", 
+                    "DestinationCidrBlock": "172.31.0.0/16", 
+                    "State": "active", 
+                    "Origin": "CreateRouteTable"
+                }
+            ]
+        }, 
+        {
+            "Associations": [
+                {
+                    "SubnetId": "subnet-e560abac", 
+                    "RouteTableAssociationId": "rtbassoc-e990dc8f", 
+                    "Main": false, 
+                    "RouteTableId": "rtb-13ecde74"
+                }
+            ], 
+            "RouteTableId": "rtb-13ecde74", 
+            "VpcId": "vpc-7e72ed19", 
+            "PropagatingVgws": [], 
+            "Tags": [
+                {
+                    "Value": "us-west-2a-Private-Subnets", 
+                    "Key": "Name"
+                }, 
+                {
+                    "Value": "arn:aws:cloudformation:us-west-2:842337631775:stack/main-vpc/5a4840b0-f232-11e6-83fd-50a686be7356", 
+                    "Key": "aws:cloudformation:stack-id"
+                }, 
+                {
+                    "Value": "main-vpc", 
+                    "Key": "aws:cloudformation:stack-name"
+                }, 
+                {
+                    "Value": "AZAPrivateSubnetsRouteTable", 
+                    "Key": "aws:cloudformation:logical-id"
+                }
+            ], 
+            "Routes": [
+                {
+                    "GatewayId": "local", 
+                    "DestinationCidrBlock": "10.10.0.0/16", 
+                    "State": "active", 
+                    "Origin": "CreateRouteTable"
+                }, 
+                {
+                    "Origin": "CreateRoute", 
+                    "DestinationCidrBlock": "0.0.0.0/0", 
+                    "NatGatewayId": "nat-052cb3d14ce0cc217", 
+                    "State": "active"
+                }
+            ]
+        }
+    ]
+}

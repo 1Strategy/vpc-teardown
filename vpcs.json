@@ -1,0 +1,52 @@
+{
+    "Vpcs": [
+        {
+            "VpcId": "vpc-559b2731", 
+            "InstanceTenancy": "default", 
+            "State": "available", 
+            "DhcpOptionsId": "dopt-c31e31a6", 
+            "CidrBlock": "172.31.0.0/16", 
+            "IsDefault": true
+        }, 
+        {
+            "VpcId": "vpc-7e72ed19", 
+            "InstanceTenancy": "default", 
+            "Tags": [
+                {
+                    "Value": "MainVPC", 
+                    "Key": "aws:cloudformation:logical-id"
+                }, 
+                {
+                    "Value": "arn:aws:cloudformation:us-west-2:842337631775:stack/main-vpc/5a4840b0-f232-11e6-83fd-50a686be7356", 
+                    "Key": "aws:cloudformation:stack-id"
+                }, 
+                {
+                    "Value": "main-vpc", 
+                    "Key": "aws:cloudformation:stack-name"
+                }, 
+                {
+                    "Value": "Main", 
+                    "Key": "Name"
+                }
+            ], 
+            "State": "available", 
+            "DhcpOptionsId": "dopt-c31e31a6", 
+            "CidrBlock": "10.10.0.0/16", 
+            "IsDefault": false
+        }, 
+        {
+            "VpcId": "vpc-dafffbbe", 
+            "InstanceTenancy": "default", 
+            "Tags": [
+                {
+                    "Value": "180699916525", 
+                    "Key": "AWSServiceAccount"
+                }
+            ], 
+            "State": "available", 
+            "DhcpOptionsId": "dopt-c31e31a6", 
+            "CidrBlock": "172.16.0.0/16", 
+            "IsDefault": false
+        }
+    ]
+}
