@@ -11,9 +11,8 @@ def lambda_handler(event, context):
 
     for route_table in route_tables:
         print(route_table['Associations'])
-    # for subnet in subnets['Subnets']:
-    #     print(subnet['VpcId'])
-    #     print(subnet['SubnetId'])
-
+        response = client.disassociate_route_table(DryRun=False,
+                                                   AssociationId='string')
+        
 
 lambda_handler({'region': 'us-west-2'}, {})
